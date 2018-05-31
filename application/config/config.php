@@ -25,8 +25,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 */
 
 date_default_timezone_set('Asia/Manila');
-// $config['base_url'] = 'http://www.jasrich.com';
-$config['base_url'] = 'http://inventory.dev';
+$config['base_url'] = 'http://www.jasrich.com';
+//$config['base_url'] = 'http://inventory.dev';
 
 /*
 |--------------------------------------------------------------------------
