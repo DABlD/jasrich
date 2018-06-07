@@ -277,13 +277,13 @@
 	});
 	
 	$('#addOrderModal').submit(function(e){
-	   e.preventDefault();
 	   getPrice();
 	   
-	   if(valid)
+	   if(!valid)
 	   {
-	       $('#addOrderModal').submit();
+	   		e.preventDefault();
 	   }
+	    // $('#addOrderModal').submit();
 	});
 
 	function normalOrBulk()
